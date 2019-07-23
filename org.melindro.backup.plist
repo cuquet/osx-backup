@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>org.melindro.backup</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/local/bin/mel_backup.sh</string>
+		<string>-m</string>
+		<string>-p</string>
+		<string>-b</string>
+		<string>/My Backups</string>
+		<string>-f</string>
+		<string>/usr/local/var/www</string>
+		<string>-f</string>
+		<string>/usr/local/etc</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>StartCalendarInterval</key>
+	<array>
+		<dict>
+			<key>Hour</key>
+			<integer>23</integer>
+			<key>Minute</key>
+			<integer>12</integer>
+		</dict>
+	</array>
+	<key>UserName</key>
+	<string>root</string>
+</dict>
+</plist>
