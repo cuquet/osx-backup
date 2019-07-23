@@ -1,4 +1,7 @@
 # OS X CLI backup file
+Bash script based on bender 2.7 written by Robot Cloud
+[http://www.forgetcomputers.com/robot-cloud](http://www.forgetcomputers.com/robot-cloud).
+
 Usage:
 
 `sudo mel_backup.sh [options] `
